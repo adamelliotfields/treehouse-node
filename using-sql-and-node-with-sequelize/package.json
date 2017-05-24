@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "A blog application using Node, Express, PostgreSQL, and Sequelize.",
+  "author": "Adam Fields",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "connect": "^3.4.1",
+    "cookie-parser": "~1.3.5",
+    "dateformat": "^1.0.12",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "method-override": "^2.3.5",
+    "morgan": "~1.6.1",
+    "pg": "^6.1.4",
+    "sequelize": "^3.30.2",
+    "serve-favicon": "~2.3.0"
+  },
+    "devDependencies": {
+    "concurrently": "^3.4.0",
+    "opn-cli": "^3.1.0"
+  },
+  "scripts": {
+    "start": "concurrently \"node ./bin/www\" \"opn http://localhost:8000\"",
+    "pg:start": "pg_ctl start",
+    "pg:ready": "pg_isready",
+    "pg:import": "psql -f articles.sql",
+    "pg:stop": "pg_ctl stop"
+  }
+}

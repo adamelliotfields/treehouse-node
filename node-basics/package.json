@@ -1,0 +1,10 @@
+{
+  "name": "node-basics",
+  "version": "1.0.0",
+  "main": "treehouse.js",
+  "license": "MIT",
+  "scripts": {
+    "treehouse": "node treehouse.js",
+    "weather": "node weather.js"
+  }
+}

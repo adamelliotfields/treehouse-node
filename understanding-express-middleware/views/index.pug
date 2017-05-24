@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .wrapper
+    .result
+      h1= multiplied
+    form(action='', method='post')
+      label(for='number') Enter a number to triple:
+      br
+      input(type='text', name='number')
+      br
+      button(type='submit', name='submit') Submit

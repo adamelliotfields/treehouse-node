@@ -25,7 +25,7 @@
     "nodemon": "^1.11.0"
   },
   "scripts": {
-    "start": "concurrently \"cross-env NODE_ENV=development nodemon server.js --ext js,jsx\" \"livereload .\"",
-    "start:prod": "cross-env NODE_ENV=production node server.js"
+    "start": "cross-env NODE_ENV=production node server.js",
+    "start:dev": "concurrently \"cross-env NODE_ENV=development nodemon server.js --ext js,jsx\" \"livereload .\""
   }
 }

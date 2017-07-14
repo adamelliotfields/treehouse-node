@@ -13,6 +13,7 @@
 **[Understanding Express Middleware](https://github.com/adamelliotfields/treehouse-node/tree/master/understanding-express-middleware)**  
 **[Build a REST API with Express](https://github.com/adamelliotfields/treehouse-node/tree/master/build-a-rest-api-with-express)**  
 **[User Authentication with Express and Mongo](https://github.com/adamelliotfields/treehouse-node/tree/master/user-authentication-with-express-and-mongo)**  
+**[OAuth Authentication with Passport](https://github.com/adamelliotfields/treehouse-node/tree/master/oauth-authentication-with-passport)**  
 
 ### Other Topics
 
